@@ -23,22 +23,32 @@
 }
 
 .header {
-  padding: 50px 0;
+  padding: 25px 0;
 }
 .header-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 .header-box {
-  max-width: 1000px;
+  max-width: 700px;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-left: 100px;
+}
+.header-box__registration {
+  max-width: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+}
+.header-box__registration__link:nth-of-type(1) {
+  margin-bottom: 10px;
 }
 .header-box__link {
   color: #626262;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .promo {
