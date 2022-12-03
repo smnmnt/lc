@@ -23,7 +23,8 @@
 }
 
 .header {
-  padding: 25px 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .header-container {
   display: flex;
@@ -40,15 +41,12 @@
   max-width: 200px;
   width: 100%;
   display: flex;
-  flex-direction: column;
-  text-align: end;
-}
-.header-box__registration__link:nth-of-type(1) {
-  margin-bottom: 10px;
+  justify-content: space-between;
+  align-items: center;
 }
 .header-box__link {
   color: #626262;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .promo {
